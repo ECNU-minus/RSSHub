@@ -92,6 +92,7 @@ export type RoutePath =
   | `/7gogo/user/:username`
   | `/7mmtv/:language?/:category?/:type?`
   | `/81/81rc/:category{.+}?`
+  | `/81/jfjb/:page?`
   | `/8264/list/:id?`
   | `/8kcos/`
   | `/8kcos/cat/:cat?`
@@ -2040,6 +2041,7 @@ export type RoutePath =
   | `/keep/user/:id`
   | `/keepass/`
   | `/keio/ridership`
+  | `/keke.app/:category?`
   | `/kelownacapnews/:type`
   | `/kemono/:source?/:id?/:type?`
   | `/kemono/:source/:id/dms`
@@ -2217,6 +2219,8 @@ export type RoutePath =
   | `/luogu/user/feed/:uid`
   | `/luolei/`
   | `/luxiangdong/archive`
+  | `/lvshunmuseum/exhibition/:type?`
+  | `/lvshunmuseum/news`
   | `/lvv2/news/:channel/:sort?`
   | `/lvv2/top/:channel/:sort?`
   | `/lwn/alerts/:distributor`
@@ -2897,7 +2901,7 @@ export type RoutePath =
   | `/qqmusic/album/:mid`
   | `/qqorw/:category?`
   | `/qstheory/:category?`
-  | `/qstheory/magazine/:magazine`
+  | `/qstheory/magazine/:magazine/:issue?`
   | `/qttabbar/change-log`
   | `/quantamagazine/archive`
   | `/queshu/book/:bookid`
@@ -3137,7 +3141,7 @@ export type RoutePath =
   | `/sicau/jk/:gid/:typeId/:sortType/:token`
   | `/sicau/yan/:category?`
   | `/sicau/zsjy/:category?`
-  | `/sigsac/ccs`
+  | `/sigsac/ccs/:year?`
   | `/simonsfoundation/articles`
   | `/simonsfoundation/recommend`
   | `/simpleinfo/:category?`
@@ -3385,6 +3389,7 @@ export type RoutePath =
   | `/tfc-taiwan/`
   | `/tfc-taiwan/category/:category`
   | `/tgbus/list/:category`
+  | `/the-decoder/news`
   | `/the/:filter{.+}?`
   | `/theatlantic/:category`
   | `/theatlantic/author/:id`
